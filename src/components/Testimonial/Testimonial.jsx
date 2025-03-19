@@ -9,19 +9,19 @@ const testimonialData = [
     img: "https://picsum.photos/101/101",
   },
   {
-    id: 1,
+    id: 2,
     name: "Jash Patel",
     text: "Loved the taste and quality of the food! The burger was fresh, the fries were crispy, and the delivery was super fast. Techno Momo Cafe never disappoints!",
     img: "https://picsum.photos/102/102",
   },
   {
-    id: 1,
+    id: 3,
     name: "Ansh Gupta",
     text: "A great place to hang out with friends. The food is delicious, and the cozy ambiance makes it even better. Their home delivery is quick and hassle-free!",
     img: "https://picsum.photos/103/103",
   },
   {
-    id: 1,
+    id: 4,
     name: "Harshit",
     text: "Techno Momo Cafe serves the best momos in town! Whether it’s steamed, fried, or crunchy, every bite is flavorful. Plus, their service is top-notch!",
     img: "https://picsum.photos/103/103",

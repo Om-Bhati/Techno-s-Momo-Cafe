@@ -50,7 +50,7 @@ const Footer = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14686.636254134904!2d72.54619635046754!3d23.03628716662322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e854651ac1dfb%3A0xc5ea4f399e3d5697!2sD&#39;Caf%20-%20Best%20Cafe%20In%20Ahmedabad!5e0!3m2!1sen!2sin!4v1742315255348!5m2!1sen!2sin"
                 className="w-full h-full rounded-xl"
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
                 allowFullScreen={true}
                 title="Coffee Shop Location"
               ></iframe>

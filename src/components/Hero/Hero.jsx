@@ -1,19 +1,22 @@
 import React from "react";
 import cafe_pic from "../../assets/cafe_pic.jpg";
 import Vector from "../../assets/vector3.png";
+import momo1 from "../../assets/momo4.jpg";
+import momo2 from "../../assets/momo2.jpg";
+import momo3 from "../../assets/momo3.jpg";
 
 const ImageList = [
   {
     id: 1,
-    img: BiryaniImg1,
+    img: momo1,
   },
   {
     id: 2,
-    img: BiryaniImg2,
+    img: momo2,
   },
   {
     id: 3,
-    img: BiryaniImg3,
+    img: momo3,
   },
 ];
 
@@ -46,13 +49,15 @@ const Hero = () => {
             >
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
                 Welcome to{" "}
-                <span class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
+                <span className="bg-clip-text text-transparent bg-gradient-to-b from-primary to-secondary">
                   Techno Momo Cafe
                 </span>{" "}
-                
               </h1>
               <p className="text-sm ">
-              Experience the perfect blend of taste and technology at Techno Momo Cafe. From sizzling momos to refreshing drinks, we offer a cozy space for food lovers, tech enthusiasts, and friends to connect. Enjoy great flavors in a modern, vibrant setting!
+                Experience the perfect blend of taste and technology at Techno
+                Momo Cafe. From sizzling momos to refreshing drinks, we offer a
+                cozy space for food lovers, tech enthusiasts, and friends to
+                connect. Enjoy great flavors in a modern, vibrant setting!
               </p>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
@@ -68,7 +73,6 @@ const Hero = () => {
                   src={imageId}
                   alt="biryani img"
                   className="w-[600px] rounded-lg object-cover shadow-lg "
-
                 />
               </div>
             </div>
